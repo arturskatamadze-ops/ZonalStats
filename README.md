@@ -90,6 +90,3 @@ Run from source, or run the engine smoke test:
 
 **Releasing:** push a version tag (e.g. `git tag v1.0.0 && git push origin v1.0.0`).
 GitHub Actions then builds the `.exe` and attaches it to a release for that tag.
-
-`vic/` holds the older per-camera scripts ZonalStats replaces. They computed some
-statistics over nodata and out-of-plot pixels, which ZonalStats does not.
