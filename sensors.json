@@ -1,0 +1,22 @@
+{
+  "MicaSense Altum": {
+    "bands": {
+      "1": "Blue",
+      "2": "Green",
+      "3": "Red",
+      "4": "RedEdge",
+      "5": "NIR",
+      "6": "LWIR"
+    },
+    "default_nodata": -10000.0
+  },
+  "DJI M3M": {
+    "bands": {
+      "1": "Green",
+      "2": "Red",
+      "3": "RedEdge",
+      "4": "NIR"
+    },
+    "default_nodata": -10000.0
+  }
+}

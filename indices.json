@@ -1,0 +1,158 @@
+[
+  {
+    "name": "NDVI",
+    "formula": "(NIR - Red) / (NIR + Red)",
+    "description": "Normalized Difference Vegetation Index. General greenness/biomass.",
+    "category": "Red/NIR"
+  },
+  {
+    "name": "SR",
+    "formula": "NIR / Red",
+    "description": "Simple Ratio (RVI). NIR-to-Red ratio; sensitive at high biomass.",
+    "category": "Red/NIR"
+  },
+  {
+    "name": "DVI",
+    "formula": "NIR - Red",
+    "description": "Difference Vegetation Index.",
+    "category": "Red/NIR"
+  },
+  {
+    "name": "SAVI",
+    "formula": "1.5 * (NIR - Red) / (NIR + Red + 0.5)",
+    "description": "Soil Adjusted Vegetation Index (L=0.5). Reduces soil background.",
+    "category": "Red/NIR"
+  },
+  {
+    "name": "OSAVI",
+    "formula": "(NIR - Red) / (NIR + Red + 0.16)",
+    "description": "Optimized SAVI (L=0.16).",
+    "category": "Red/NIR"
+  },
+  {
+    "name": "MSAVI",
+    "formula": "(2*NIR + 1 - sqrt((2*NIR + 1)**2 - 8*(NIR - Red))) / 2",
+    "description": "Modified SAVI; self-adjusting soil factor.",
+    "category": "Red/NIR"
+  },
+  {
+    "name": "EVI2",
+    "formula": "2.5 * (NIR - Red) / (NIR + 2.4*Red + 1)",
+    "description": "Two-band Enhanced Vegetation Index (no blue band needed).",
+    "category": "Red/NIR"
+  },
+  {
+    "name": "GNDVI",
+    "formula": "(NIR - Green) / (NIR + Green)",
+    "description": "Green NDVI. More sensitive to chlorophyll than NDVI.",
+    "category": "Green"
+  },
+  {
+    "name": "GCI",
+    "formula": "(NIR / Green) - 1",
+    "description": "Green Chlorophyll Index (CIgreen).",
+    "category": "Green"
+  },
+  {
+    "name": "GRVI",
+    "formula": "(Green - Red) / (Green + Red)",
+    "description": "Green-Red Vegetation Index.",
+    "category": "Green"
+  },
+  {
+    "name": "NDWI",
+    "formula": "(Green - NIR) / (Green + NIR)",
+    "description": "Normalized Difference Water Index (McFeeters); water/moisture.",
+    "category": "Green"
+  },
+  {
+    "name": "NDRE",
+    "formula": "(NIR - RedEdge) / (NIR + RedEdge)",
+    "description": "Normalized Difference Red Edge. Canopy N / chlorophyll, less saturating.",
+    "category": "RedEdge"
+  },
+  {
+    "name": "CIrededge",
+    "formula": "(NIR / RedEdge) - 1",
+    "description": "Red Edge Chlorophyll Index.",
+    "category": "RedEdge"
+  },
+  {
+    "name": "LCI",
+    "formula": "(NIR - RedEdge) / (NIR + Red)",
+    "description": "Leaf Chlorophyll Index.",
+    "category": "RedEdge"
+  },
+  {
+    "name": "PSRI",
+    "formula": "(Red - Green) / RedEdge",
+    "description": "Plant Senescence Reflectance Index.",
+    "category": "RedEdge"
+  },
+  {
+    "name": "MCARI",
+    "formula": "((RedEdge - Red) - 0.2*(RedEdge - Green)) * (RedEdge / Red)",
+    "description": "Modified Chlorophyll Absorption in Reflectance Index.",
+    "category": "RedEdge"
+  },
+  {
+    "name": "TCARI",
+    "formula": "3 * ((RedEdge - Red) - 0.2*(RedEdge - Green) * (RedEdge / Red))",
+    "description": "Transformed Chlorophyll Absorption in Reflectance Index.",
+    "category": "RedEdge"
+  },
+  {
+    "name": "NDREI",
+    "formula": "(RedEdge - Green) / (RedEdge + Green)",
+    "description": "Normalized Difference Red Edge Index (green-based).",
+    "category": "RedEdge"
+  },
+  {
+    "name": "EVI",
+    "formula": "2.5 * (NIR - Red) / (NIR + 6*Red - 7.5*Blue + 1)",
+    "description": "Enhanced Vegetation Index; atmosphere/soil resistant.",
+    "category": "Blue/NIR"
+  },
+  {
+    "name": "ARVI",
+    "formula": "(NIR - (2*Red - Blue)) / (NIR + (2*Red - Blue))",
+    "description": "Atmospherically Resistant Vegetation Index.",
+    "category": "Blue/NIR"
+  },
+  {
+    "name": "GLI",
+    "formula": "(2*Green - Red - Blue) / (2*Green + Red + Blue)",
+    "description": "Green Leaf Index (RGB).",
+    "category": "Visible"
+  },
+  {
+    "name": "VARI",
+    "formula": "(Green - Red) / (Green + Red - Blue)",
+    "description": "Visible Atmospherically Resistant Index (RGB).",
+    "category": "Visible"
+  },
+  {
+    "name": "ExG",
+    "formula": "2*Green - Red - Blue",
+    "description": "Excess Green index (RGB).",
+    "category": "Visible"
+  },
+  {
+    "name": "TGI",
+    "formula": "Green - 0.39*Red - 0.61*Blue",
+    "description": "Triangular Greenness Index (RGB).",
+    "category": "Visible"
+  },
+  {
+    "name": "RGBVI",
+    "formula": "(Green**2 - Red*Blue) / (Green**2 + Red*Blue)",
+    "description": "RGB Vegetation Index.",
+    "category": "Visible"
+  },
+  {
+    "name": "NGRDI",
+    "formula": "(Green - Red) / (Green + Red)",
+    "description": "Normalized Green-Red Difference Index (RGB).",
+    "category": "Visible"
+  }
+]

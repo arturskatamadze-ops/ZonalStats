@@ -1,0 +1,7 @@
+numpy
+pandas
+rasterio
+fiona
+shapely
+pillow
+pyinstaller

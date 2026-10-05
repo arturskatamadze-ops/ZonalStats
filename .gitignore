@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# PyInstaller output
+build/
+dist/
+
+# Secrets and local config
+.env
+.env.*
+*.key
+*.pem
+.claude/settings.local.json
+
+# Raster / vector data and outputs
+*.tif
+*.tiff
+*.img
+*.vrt
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.gpkg
+*.geojson
+*.kml
+*.kmz
+*.zip
+*.csv
+*.xlsx
+*.xls
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
