@@ -90,3 +90,7 @@ Run from source, or run the engine smoke test:
 
 **Releasing:** push a version tag (e.g. `git tag v1.0.0 && git push origin v1.0.0`).
 GitHub Actions then builds the `.exe` and attaches it to a release for that tag.
+
+## License
+
+[MIT](LICENSE). You are free to use, change and share ZonalStats; please keep the copyright notice.
