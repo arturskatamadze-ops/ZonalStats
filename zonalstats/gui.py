@@ -86,10 +86,10 @@ Orthomosaic
                    Use this for a whole season of flights at once.
 
 Plot polygons (.shp)
-    Either a shapefile you drew in QGIS, or one you draw here with
-    "Design / edit plots…". The Designer also assigns each plot its variant
-    (genotype / treatment) and rep (replication), and can import and re-label
-    polygons you already have.
+    Draw them right here with "Design / edit plots…": lay a plot grid over
+    the orthomosaic, then give each plot its ID, variant (genotype /
+    treatment) and rep (replication). An existing shapefile works too, and
+    the Designer can import and re-label it.
 
 Sensor / camera
     Sets which raster band is Red, NIR, and so on. It is guessed from the band
